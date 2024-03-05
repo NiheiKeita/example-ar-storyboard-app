@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func faceButton(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func faceButtonAction(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "toFaceTracking", sender: nil)
+        
+    }
+    
 }
 

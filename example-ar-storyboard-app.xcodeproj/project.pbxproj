@@ -16,6 +16,7 @@
 		D4A9DA162B9758FC004213FA /* example_ar_storyboard_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9DA152B9758FC004213FA /* example_ar_storyboard_appTests.swift */; };
 		D4A9DA202B9758FC004213FA /* example_ar_storyboard_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9DA1F2B9758FC004213FA /* example_ar_storyboard_appUITests.swift */; };
 		D4A9DA222B9758FC004213FA /* example_ar_storyboard_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9DA212B9758FC004213FA /* example_ar_storyboard_appUITestsLaunchTests.swift */; };
+		D4A9DA322B975CB6004213FA /* FaceTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9DA312B975CB6004213FA /* FaceTrackingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D4A9DA1B2B9758FC004213FA /* example-ar-storyboard-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "example-ar-storyboard-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A9DA1F2B9758FC004213FA /* example_ar_storyboard_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_ar_storyboard_appUITests.swift; sourceTree = "<group>"; };
 		D4A9DA212B9758FC004213FA /* example_ar_storyboard_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example_ar_storyboard_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4A9DA312B975CB6004213FA /* FaceTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,15 @@
 		D4A9D9FD2B9758FB004213FA /* example-ar-storyboard-app */ = {
 			isa = PBXGroup;
 			children = (
+				D4A9DA302B975C99004213FA /* New Group */,
 				D4A9D9FE2B9758FB004213FA /* AppDelegate.swift */,
 				D4A9DA002B9758FB004213FA /* SceneDelegate.swift */,
 				D4A9DA022B9758FB004213FA /* ViewController.swift */,
+				D4A9DA312B975CB6004213FA /* FaceTrackingViewController.swift */,
 				D4A9DA042B9758FB004213FA /* Main.storyboard */,
 				D4A9DA072B9758FC004213FA /* Assets.xcassets */,
-				D4A9DA092B9758FC004213FA /* LaunchScreen.storyboard */,
 				D4A9DA0C2B9758FC004213FA /* Info.plist */,
+				D4A9DA092B9758FC004213FA /* LaunchScreen.storyboard */,
 			);
 			path = "example-ar-storyboard-app";
 			sourceTree = "<group>";
@@ -125,6 +129,13 @@
 				D4A9DA212B9758FC004213FA /* example_ar_storyboard_appUITestsLaunchTests.swift */,
 			);
 			path = "example-ar-storyboard-appUITests";
+			sourceTree = "<group>";
+		};
+		D4A9DA302B975C99004213FA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A9DA322B975CB6004213FA /* FaceTrackingViewController.swift in Sources */,
 				D4A9DA032B9758FB004213FA /* ViewController.swift in Sources */,
 				D4A9D9FF2B9758FB004213FA /* AppDelegate.swift in Sources */,
 				D4A9DA012B9758FB004213FA /* SceneDelegate.swift in Sources */,
