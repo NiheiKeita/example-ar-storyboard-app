@@ -15,6 +15,6 @@ class FaceTrackingViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func tapBuckButton(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        self.dismiss(animated: false, completion: nil)
     }
 }

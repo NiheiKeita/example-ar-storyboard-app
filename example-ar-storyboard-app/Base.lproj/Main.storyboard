@@ -31,7 +31,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="5NJ-A5-4cd" kind="presentation" identifier="toFaceTracking" modalPresentationStyle="fullScreen" id="vI1-5m-SUe"/>
+                        <segue destination="5NJ-A5-4cd" kind="modal" identifier="toFaceTracking" animates="NO" modalPresentationStyle="fullScreen" id="vI1-5m-SUe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
